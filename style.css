@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+
+}
+
+body{
+    background-color: rgb(188, 252, 255);
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height:10vh;
+    justify-content: space-between;
+    
+    border-bottom: solid 2px black;
+
+}
+
+
+header h1{
+    font-family: Portico Stencil Rough;
+    font-size: 4vw;
+    color: black;
+    margin-left: 2vw;
+
+
+}
+
+header h2{
+    margin-right: 2vw;
+    margin-top: 3vw;
+    font-family: Portico Light Rough;
+}
+
+nav{
+    display: flex;
+    justify-content:center;
+    
+    gap: 1vw;
+}
+
+nav h4{
+    padding-top:2vh;
+    font-size: 1vw;
+    font-family: Gilroy-ExtraBold;
+    color: rgb(126, 126, 126);
+    width:10%;
+   
+    height:10vh;
+    text-align: center;
+}
+section{
+    width: 100%;
+    height:400vh;
+}
+
+
+#sectionfind{
+    width:20vw;
+    height: 4vh;
+    margin-left: 2vw;
+    border-radius: 50px;
+    padding-left: 1vw;
+    border: 1px solid #000000;
+}
+
+
+footer{
+    width:100%;
+    height:200vh;
+    background-color: beige;
+}
+
+footer #navfoot{
+    display: flex;
+}
+footer #navfoot div{
+    font-size: 2vh;
+    font-family:Gilroy-ExtraBold ;
+    color: rgb(0, 0, 0);
+    width: 20%;
+    height:50vh;
+    background-color: rgb(175, 175, 197);
+    border: solid black 3px;
+    text-align: center;
+} 
+
+#navmiddle{
+    width:100%;
+    height:50vh;
+    background-color: ghostwhite;
+}
+
+#navstyle{
+    width:100%;
+    height:100vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+
+}
+#folding{
+    width:70%;
+    height:20vh;
+}
+
+#navstyle div{
+    font-size: 3vh;
+    color:red;
+    font-family:Gilroy-ExtraBold ;
+    width:33%;
+    height:100vh;
+    text-align: center;
+    
+}
+
+#navstyle div h3{
+    font-size: 2vh;
+    text-align: center;
+    margin-top: 13vh;
+
+}
+
+#navstyle div button{
+    width:8vw;
+    height:5vh;
+    border-radius:50px;
+    color:floralwhite;
+    background-color: red;
+    border: none;
+    font-size: 1.5vh;
+    margin:10vh;
+    margin-top: 1vh;
+    font-family: Gilroy-ExtraBold;
+}
